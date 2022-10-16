@@ -1,0 +1,59 @@
+.main {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 150px 250px 150px 250px;
+
+    .contents {
+        width: 100%;
+
+        .title {
+            font-family: 'Press Start 2P';
+            color: #ebe6e6;
+            font-size: 25px;
+            text-align: left;
+        }
+
+        .content {
+            background: #383838;
+            box-sizing: border-box;
+            padding: 15px;
+            font-family: 'Source Code Pro';
+            color: #ebe6e6;
+            border-radius: 5px;
+
+            a {
+                color: #ebe6e6;
+                // text-decoration: none;
+            }
+        }
+    }
+
+    .chapter {
+        width: 100%;
+        box-sizing: border-box;
+        padding-top: 100px;
+
+        .title {
+            font-family: 'Source Code Pro';
+            font-weight: 600;
+            color: #ebe6e6;
+            font-size: 32px;
+            text-align: left;
+            text-decoration: underline;
+            text-align: left;
+        }
+
+        .paragraph {
+            width: 100%;
+            font-family: 'Source Code Pro';
+            color: #ebe6e6;
+            font-size: 20px;
+            text-align: justify;
+        }
+
+        .subtitle {
+            text-decoration: underline;
+            font-weight: 600px;
+        }
+    }
+}
