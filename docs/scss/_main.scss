@@ -1,7 +1,15 @@
 .main {
     width: 100%;
     box-sizing: border-box;
-    padding: 150px 250px 150px 250px;
+    // padding: 150px 250px 150px 250px;
+
+    @media screen and (max-width: 1000px) {
+        padding: 25px;
+    }
+
+    @media screen and (min-width: 1001px) {
+        padding: 150px 250px 150px 250px;
+    }
 
     .contents {
         width: 100%;
@@ -31,7 +39,15 @@
     .chapter {
         width: 100%;
         box-sizing: border-box;
-        padding-top: 100px;
+        // padding-top: 100px;
+        
+        @media screen and (max-width: 1000px) {
+            padding-top: 25px;
+        }
+    
+        @media screen and (min-width: 1001px) {
+            padding-top: 100px;
+        }
 
         .title {
             font-family: 'Source Code Pro';
@@ -47,8 +63,16 @@
             width: 100%;
             font-family: 'Source Code Pro';
             color: #ebe6e6;
-            font-size: 20px;
-            text-align: justify;
+            // font-size: 20px;
+            text-align: left;
+
+            @media screen and (max-width: 1000px) {
+                font-size: 15px;
+            }
+        
+            @media screen and (min-width: 1001px) {
+                font-size: 20px;
+            }
         }
 
         .subtitle {

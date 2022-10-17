@@ -25,16 +25,32 @@
         .text {
             color: #ebe6e6;
             font-family: 'Press Start 2P';
-            font-size: 32px;
+            // font-size: 32px;
             text-align: center;
+
+            @media screen and (max-width: 1000px) {
+                font-size: 15px;
+            }
+
+            @media screen and (min-width: 1001px) {
+                font-size: 32px;
+            }
         }
 
         .author {
             color: #eddbdb;
             font-family: 'Source Code Pro';
             font-weight: 700;
-            font-size: 20px;
+            // font-size: 20px;
             text-align: center;
+
+            @media screen and (max-width: 1000px) {
+                font-size: 13px;
+            }
+
+            @media screen and (min-width: 1001px) {
+                font-size: 20px;
+            }
         }
     }
 }
